@@ -13,7 +13,7 @@
 #define exprtk_disable_rtl_vecops
 #define exprtk_disable_caseinsensitivity
 
-#include "..\libs\exprtk\exprtk.hpp"
+#include "../libs/exprtk/exprtk.hpp"
 
 typedef exprtk::symbol_table<double> SymbolTable;
 typedef exprtk::expression<double> Expression;
