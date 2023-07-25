@@ -153,11 +153,20 @@ Misc:
 * Decryption of data files with the run argument "/savedata"
 
 #### Calculations:
-Some of the hardcoded calculations can be changed by creating a `Data/calculations.txt` file.
+Some of the hardcoded calculations can be changed by creating a ` Data/calculations.txt ` file.
 Available Calculations: 
-* CalcSpeed: Hitec plane speed. Available variables: power, weight, verbrauch, tank.
-* CalcReichweite: Hitec plane range. Available variables: power, weight, speed, verbrauch, tank.
-* EnoughPower: Calculation to check if a Hitec plane has enough power. Available variables: power, weight, speed, verbrauch, tank.
+
+`CalcSpeed`  
+Hitec plane speed.  
+Available variables: `power`, `weight`, `verbrauch`, `tank`. 
+
+`CalcReichweite`  
+Hitec plane range.  
+Available variables: `power`, `weight`, `speed`, `verbrauch`, `tank`. 
+
+`EnoughPower`  
+Calculation to check if a Hitec plane has enough power.  
+Available variables: `power`, `weight`, `speed`, `verbrauch`, `tank`.  
 
 A sample file using the origial calculations would look like this:
 ```
